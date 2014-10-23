@@ -13,8 +13,13 @@ public class Main {
 		
 		// Calculadora con eclipse!!! enfasis II
 		// yesica, johan, alejandro
-		float num1;
 		
+		float num1=1;	
+		float num2=2;	
+		
+		float suma;
+		
+		suma= num1+num2;
 		
 		
 
