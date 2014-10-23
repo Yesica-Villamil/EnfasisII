@@ -22,12 +22,11 @@ public class Main {
 
 		float resta;
 		
+		float multiplicacion;
+		
 		suma= num1 +num2;
 		resta= num1-num2;
-		//joahahhaha
-		
-		
-		//oda yesi
+		multiplicacion= num1*num2;
 	}
 
 }
