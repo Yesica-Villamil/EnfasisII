@@ -27,9 +27,11 @@ public class Main {
     	
     	suma=n1+n2;
     	resta=n1-n2;
+    	multiplicacion=n1*n2;
     	
     	JOptionPane.showMessageDialog(null,"el resultado es ");
     	JOptionPane.showMessageDialog(null,"suma es "+suma);
     	JOptionPane.showMessageDialog(null,"resta es "+resta);
+    	JOptionPane.showMessageDialog(null,"resta es "+multiplicacion);
 
 }}
