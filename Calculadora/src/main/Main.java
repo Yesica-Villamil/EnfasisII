@@ -18,9 +18,11 @@ public class Main {
 		float num2=2;	
 		
 		float suma;
+
+		float resta;
 		
 		suma= num1+num2;
-		
+		resta= num1-num2;
 		
 
 	}
