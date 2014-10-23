@@ -1,5 +1,5 @@
 package main;
-
+import java.util.Scanner;
 public class Main {
 
 	
@@ -15,18 +15,15 @@ public class Main {
 		// yesica, johan, alejandro
 		
 	
-		float num1=1;	
-		float num2=2;	
-		
-		float suma;
 
-		float resta;
-		
-		float multiplicacion;
-		
-		suma= num1 +num2;
-		resta= num1-num2;
-		multiplicacion= num1*num2;
-	}
+    	Scanner teclado=new Scanner(System.in);
+    	int num1, num2, suma;
+    	System.out.println("ingrese elprimer numero de la suma: ");
+    	num1=teclado.nextInt();
+    	System.out.println("ingrese el segundor numero de la suma: ");
+    	num2=teclado.nextInt();
+    	
+    	suma=num1+num2;
+    	System.out.println("la suma es: "+suma);
 
-}
+}}
