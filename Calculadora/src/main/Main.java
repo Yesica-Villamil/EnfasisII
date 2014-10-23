@@ -1,5 +1,7 @@
 package main;
 import java.util.Scanner;
+import javax.swing.*;
+
 public class Main {
 
 	
@@ -17,13 +19,17 @@ public class Main {
 	
 
     	Scanner teclado=new Scanner(System.in);
-    	int num1, num2, suma;
-    	System.out.println("ingrese elprimer numero de la suma: ");
-    	num1=teclado.nextInt();
-    	System.out.println("ingrese el segundor numero de la suma: ");
-    	num2=teclado.nextInt();
+    	int  suma,resta,division,multiplicacion;
+    	String num1=JOptionPane.showInputDialog(null,"Ingrese el primer numero: ");
+		int n1= new Integer(num1);
+    	String num2=JOptionPane.showInputDialog(null,"Ingrese el segundo numero: ");
+		int n2= new Integer(num2);
     	
-    	suma=num1+num2;
-    	System.out.println("la suma es: "+suma);
+    	suma=n1+n2;
+    	resta=n1-n2;
+    	
+    	JOptionPane.showMessageDialog(null,"el resultado es ");
+    	JOptionPane.showMessageDialog(null,"suma es "+suma);
+    	JOptionPane.showMessageDialog(null,"resta es "+resta);
 
 }}
