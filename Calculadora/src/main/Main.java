@@ -14,6 +14,7 @@ public class Main {
 		// Calculadora con eclipse!!! enfasis II
 		// yesica, johan, alejandro
 		
+	
 		float num1=1;	
 		float num2=2;	
 		
@@ -21,13 +22,13 @@ public class Main {
 
 		float resta;
 		
-		suma= num1+num2;
+		suma= num1 +num2;
 		resta= num1-num2;
 		
 		//HOLA
 		
 		//GHGHVG
-		
+		//ggg
 
 	}
 
