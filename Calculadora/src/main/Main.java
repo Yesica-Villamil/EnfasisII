@@ -25,12 +25,10 @@ public class Main {
 		suma= num1 +num2;
 		resta= num1-num2;
 		
-		//HOLAgggguuuuuuuuuu
 		
-		//GHGHVGggggg
-		//ggg
 		
-		//HOLA  papi
+		//HOLA df
+
 	}
 
 }
